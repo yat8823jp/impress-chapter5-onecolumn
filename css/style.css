@@ -1,0 +1,93 @@
+@charset "UTF-8";
+:root {
+  --main-color: #FBD551;
+}
+
+body {
+  background: #4F4539;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+header h1 {
+  width: 224px;
+  padding: 16px;
+  margin: 48px auto 60px;
+  font-size: 24px;
+  font-weight: normal;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+}
+
+h2 {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+main {
+  margin-bottom: 40px;
+}
+main figure {
+  max-width: 800px;
+  margin: auto;
+}
+main figure img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+main figure hr {
+  width: 64px;
+  margin-bottom: 40px;
+  border-color: var(--main-color);
+}
+main .description {
+  margin-bottom: 40px;
+}
+main .description em {
+  color: #C0C0C0;
+}
+main .information {
+  margin-bottom: 40px;
+}
+main .information dl {
+  font-size: 14px;
+}
+main .information dl dt {
+  display: inline;
+}
+main .information dl dd {
+  margin-left: 8px;
+  display: inline;
+}
+
+aside {
+  margin-bottom: 80px;
+}
+aside p {
+  margin-bottom: 24px;
+}
+aside ul {
+  padding: 0;
+}
+aside ul li {
+  margin-bottom: 16px;
+  list-style-type: none;
+}
+aside ul li a {
+  width: 78px;
+  padding: 4px 16px;
+  color: #51DCFB;
+  font-size: 14px;
+  text-decoration: none;
+  border: 1px solid #51DCFB;
+  display: inline-block;
+}
+
+footer p {
+  margin-bottom: 24px;
+}
+footer p small {
+  font-size: 12px;
+}
+/*# sourceMappingURL=style.css.map */
